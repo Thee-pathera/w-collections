@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>W Collections Thrift Shop — Ruhan Plaza</title>
+<meta name="description" content="Curated secondhand fashion at W Collections Thrift Shop. Ground Floor, Ruhan Plaza, Shop 17. Menswear, womenswear, children's, streetwear.">
+
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+
+  function trackContact(channel){
+    gtag('event', 'contact_click', { channel: channel });
+  }
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --navy: #050A15;
+    --navy-light: #0F1820;
+    --gold: #D4AF37;
+    --cream: #F5F0E6;
+    --charcoal: #2A2A28;
+    --line: rgba(13,22,35,0.12);
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:'Work Sans', sans-serif;
+    color:var(--charcoal);
+    background:var(--cream);
+    line-height:1.5;
+  }
+  h1,h2,h3{font-weight:700;}
+  a{color:inherit; text-decoration:none;}
+  img{max-width:100%; display:block;}
+  .wrap{max-width:1120px; margin:0 auto; padding:0 24px;}
+
+  header{
+    position:sticky; top:0; z-index:50;
+    background:var(--navy);
+    color:var(--cream);
+  }
+  .nav{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:18px 24px; max-width:1120px; margin:0 auto;
+  }
+  .brand{
+    display:flex; align-items:center; gap:16px;
+  }
+  .brand-logo{
+    font-size:2.2rem;
+    font-weight:700;
+    color:var(--gold);
+    letter-spacing:0.05em;
+    line-height:1;
+  }
+  .brand-text{
+    display:flex; flex-direction:column; gap:2px;
+  }
+  .brand-name{
+    font-size:0.9rem;
+    font-weight:700;
+    letter-spacing:0.05em;
+    color:var(--gold);
+  }
+  .brand-tagline{
+    font-size:0.7rem;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    font-weight:600;
+    color:var(--cream);
+    opacity:0.9;
+  }
+  .nav-links{display:flex; gap:28px; font-size:0.9rem; letter-spacing:0.03em;}
+  .nav-links a{opacity:0.85; transition:opacity .2s;}
+  .nav-links a:hover{opacity:1;}
+  .nav-cta{
+    background:var(--gold);
+    color:var(--navy);
+    padding:10px 22px;
+    border-radius:2px;
+    font-weight:600;
+    font-size:0.85rem;
+    letter-spacing:0.02em;
+  }
+  @media (max-width:720px){ .nav-links{display:none;} }
+
+  .hero{
+    background:linear-gradient(160deg, var(--navy) 0%, var(--navy-light) 100%);
+    color:var(--cream);
+    padding:90px 24px 70px;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero::after{
+    content:"";
+    position:absolute; inset:0;
+    background-image: repeating-linear-gradient(135deg, rgba(212,175,55,0.03) 0 2px, transparent 2px 26px);
+    pointer-events:none;
+  }
+  .hero-inner{max-width:1120px; margin:0 auto; position:relative; display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:center;}
+  .eyebrow{
+    color:var(--gold); text-transform:uppercase; letter-spacing:0.18em;
+    font-size:0.78rem; font-weight:600; margin-bottom:18px;
+  }
+  .hero h1{font-size:2.8rem; line-height:1.1; margin-bottom:20px;}
+  .hero h1 em{color:var(--gold); font-style:italic;}
+  .hero p{font-size:1.05rem; opacity:0.82; max-width:440px; margin-bottom:32px;}
+  .hero-actions{display:flex; gap:14px; flex-wrap:wrap;}
+  .btn{
+    display:inline-block; padding:12px 26px; border-radius:2px;
+    font-weight:600; font-size:0.92rem; letter-spacing:0.02em;
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  .btn:hover{transform:translateY(-2px);}
+  .btn-gold{background:var(--gold); color:var(--navy);}
+  .btn-gold:hover{box-shadow:0 8px 24px rgba(212,175,55,0.4);}
+  .btn-outline{border:1px solid rgba(245,240,230,0.4); color:var(--cream);}
+
+  .hero-visual{
+    display:flex; justify-content:center; align-items:center;
+    position:relative;
+    gap:20px;
+  }
+  .hero-item-frame{
+    width:140px; height:220px;
+    background:rgba(245,240,230,0.08);
+    border:1px solid rgba(212,175,55,0.25);
+    border-radius:2px;
+    overflow:hidden;
+    display:flex; align-items:center; justify-content:center;
+    flex-shrink:0;
+  }
+  .hero-item-frame img{
+    width:100%; height:100%;
+    object-fit:cover;
+  }
+
+  @media (max-width:860px){
+    .hero-inner{grid-template-columns:1fr;}
+    .hero h1{font-size:2.2rem;}
+    .hero-visual{justify-content:flex-start; overflow-x:auto; padding-bottom:10px; margin-bottom:20px;}
+  }
+
+  .section-head{margin-bottom:40px;}
+  .section-head .eyebrow{color:var(--navy); opacity:0.55;}
+  .section-head h2{font-size:2.2rem; color:var(--navy);}
+
+  .categories{padding:70px 0; background:#fff; border-top:1px solid var(--line); border-bottom:1px solid var(--line);}
+  .cat-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:18px;}
+  .cat-card{
+    padding:40px 20px; text-align:center;
+    border:1px solid var(--line); border-radius:2px;
+    transition:border-color .2s ease, background .2s ease;
+  }
+  .cat-card:hover{border-color:var(--gold); background:rgba(212,175,55,0.05);}
+  .cat-card .num{font-style:italic; color:var(--gold); font-size:1.3rem; display:block; margin-bottom:8px;}
+  .cat-card .label{font-size:0.95rem; color:var(--charcoal); font-weight:500;}
+  @media (max-width:720px){ .cat-grid{grid-template-columns:1fr 1fr;} }
+
+  .why{padding:80px 0;}
+  .why-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:32px;}
+  .why-item h3{font-size:1.1rem; margin-bottom:10px; color:var(--navy);}
+  .why-item p{opacity:0.75; font-size:0.94rem;}
+  @media (max-width:720px){ .why-grid{grid-template-columns:1fr;} }
+
+  .visit{
+    background:var(--navy); color:var(--cream);
+    padding:80px 0;
+  }
+  .visit-grid{display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:start;}
+  .visit h2{color:var(--cream); font-size:2rem; margin-bottom:16px;}
+  .visit p{opacity:0.78; margin-bottom:26px;}
+  .info-row{display:flex; gap:14px; padding:14px 0; border-bottom:1px solid rgba(245,240,230,0.12);}
+  .info-row .label{color:var(--gold); font-size:0.78rem; text-transform:uppercase; letter-spacing:0.08em; min-width:90px; font-weight:600;}
+  .contact-actions{display:flex; flex-direction:column; gap:12px;}
+  .contact-btn{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:16px 20px; border:1px solid rgba(245,240,230,0.2); border-radius:2px;
+    transition:background .2s ease, border-color .2s ease;
+  }
+  .contact-btn:hover{background:rgba(245,240,230,0.06); border-color:var(--gold);}
+  .contact-btn .arrow{color:var(--gold);}
+
+  footer{
+    padding:32px 24px; text-align:center; font-size:0.82rem; opacity:0.6;
+    background:var(--navy); color:var(--cream);
+    border-top:1px solid rgba(245,240,230,0.1);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="brand">
+      <div class="brand-logo">W</div>
+      <div class="brand-text">
+        <div class="brand-name">Collections</div>
+        <div class="brand-tagline">Thrift Shop</div>
+      </div>
+    </div>
+    <nav class="nav-links">
+      <a href="#categories">Shop</a>
+      <a href="#visit">Visit Us</a>
+    </nav>
+    <a class="nav-cta" href="#visit" onclick="trackContact('nav_visit_button')">Visit Shop</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <div class="eyebrow">Ground Floor · Ruhan Plaza · Shop 17</div>
+      <h1>Secondhand finds, <em>real</em> quality.</h1>
+      <p>Hand-picked menswear, womenswear, children's, and streetwear — refreshed weekly. Come dig through the rack yourself.</p>
+      <div class="hero-actions">
+        <a class="btn btn-gold" href="#visit" onclick="trackContact('hero_directions_button')">Get Directions</a>
+        <a class="btn btn-outline" href="#categories">Shop by Category</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-item-frame">
+        <img src="./images/item1.jpg" alt="Featured item 1">
+      </div>
+      <div class="hero-item-frame">
+        <img src="./images/item2.jpg" alt="Featured item 2">
+      </div>
+      <div class="hero-item-frame">
+        <img src="./images/item3.jpg" alt="Featured item 3">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="categories" id="categories">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Browse</div>
+      <h2>Shop by category</h2>
+    </div>
+    <div class="cat-grid">
+      <div class="cat-card"><span class="num">01</span><span class="label">Menswear</span></div>
+      <div class="cat-card"><span class="num">02</span><span class="label">Womenswear</span></div>
+      <div class="cat-card"><span class="num">03</span><span class="label">Children's</span></div>
+      <div class="cat-card"><span class="num">04</span><span class="label">Streetwear</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="why wrap">
+  <div class="section-head">
+    <div class="eyebrow">Why thrift with us</div>
+    <h2>Quality, checked piece by piece</h2>
+  </div>
+  <div class="why-grid">
+    <div class="why-item">
+      <h3>Hand-inspected</h3>
+      <p>Every piece is checked for wear, stains, and fit before it goes on the rack — no surprises when you get home.</p>
+    </div>
+    <div class="why-item">
+      <h3>New arrivals weekly</h3>
+      <p>Stock turns over every week, so regulars always find something they haven't seen before.</p>
+    </div>
+    <div class="why-item">
+      <h3>Fair prices, always</h3>
+      <p>Straightforward pricing on every tag — no haggling required.</p>
+    </div>
+  </div>
+</section>
+
+<section class="visit" id="visit">
+  <div class="wrap visit-grid">
+    <div>
+      <h2>Come find your next favorite piece</h2>
+      <p>Drop by the shop, or reach out first to ask if we have what you're after in stock.</p>
+      <div class="info-row"><span class="label">Address</span><span>Ground Floor, Ruhan Plaza, Shop No. 17</span></div>
+      <div class="info-row"><span class="label">Hours</span><span>Mon–Sat, 9:00 AM – 7:00 PM</span></div>
+    </div>
+    <div class="contact-actions">
+      <a class="contact-btn" href="https://wa.me/254722721692" onclick="trackContact('whatsapp')" target="_blank">
+        <span>Chat on WhatsApp</span><span class="arrow">→</span>
+      </a>
+      <a class="contact-btn" href="tel:+254722721692" onclick="trackContact('phone_call')">
+        <span>Call the Shop</span><span class="arrow">→</span>
+      </a>
+      <a class="contact-btn" href="https://maps.google.com" onclick="trackContact('get_directions')" target="_blank">
+        <span>Get Directions to Ruhan Plaza</span><span class="arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 W Collections Thrift Shop · Ground Floor, Ruhan Plaza, Shop 17 · Site by ROBY TECH
+</footer>
+
+</body>
+</html>
