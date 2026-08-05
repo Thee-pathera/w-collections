@@ -16,18 +16,7 @@
 <meta name="twitter:description" content="Quality thrift fashion in Kahawa Sukari.">
 <meta name="twitter:image" content="https://w-collections.vercel.app/images/item1.jpg">
 <link rel="canonical" href="https://w-collections.vercel.app/">
-<!-- Google Analytics 4 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-XXXXXXXXXX');
 
-  function trackContact(channel){
-    gtag('event', 'contact_click', { channel: channel });
-  }
-</script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -263,6 +252,12 @@
   gtag('js', new Date());
 
   gtag('config', 'G-RRVTWGFVVP');
+
+  function trackContact(channel){
+    gtag('event', 'contact_click', {
+      channel: channel
+    });
+  }
 </script>
 
 </head>
