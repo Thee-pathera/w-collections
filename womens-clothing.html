@@ -3,331 +3,151 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Women's Clothing in Kahawa Sukari | W Collections Thrift Shop</title>
-<meta name="description" content="Shop quality secondhand women's clothing in Kahawa Sukari — dresses, tops, jeans and jackets, hand-picked weekly at W Collections, Ruhan Plaza, Shop 17.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Women's Thrift Clothing | Kahawa Sukari">
-<meta property="og:description" content="Shop quality secondhand women's clothing in Kahawa Sukari — dresses, tops, jeans and jackets, hand-picked weekly at W Collections, Ruhan Plaza, Shop 17.">
-<meta property="og:url" content="https://w-collections.vercel.app/womens-clothing.html">
-<meta property="og:image" content="https://w-collections.vercel.app/images/item1.jpg">
-
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Women's Thrift Clothing | Kahawa Sukari">
-<meta name="twitter:description" content="Shop quality secondhand women's clothing in Kahawa Sukari — dresses, tops, jeans and jackets, hand-picked weekly at W Collections, Ruhan Plaza, Shop 17.">
-<meta name="twitter:image" content="https://w-collections.vercel.app/images/item1.jpg">
+<title>Women's Wear | W Collections Thrift Shop</title>
+<meta name="description" content="Shop women's wear at W Collections Thrift Shop, Kahawa Sukari. Dresses, tops, denim, skirts and more — sorted, checked, ready to wear.">
 <link rel="canonical" href="https://w-collections.vercel.app/womens-clothing.html">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-<style>
-  :root{
-    --navy: #050A15;
-    --navy-light: #0F1820;
-    --gold: #D4AF37;
-    --cream: #F5F0E6;
-    --charcoal: #2A2A28;
-    --line: rgba(13,22,35,0.12);
-  }
-  *{box-sizing:border-box; margin:0; padding:0;}
-  html{scroll-behavior:smooth;}
-  body{
-    font-family:'Work Sans', sans-serif;
-    color:var(--charcoal);
-    background:var(--cream);
-    line-height:1.5;
-  }
-  h1,h2,h3{font-weight:700;}
-  a{color:inherit; text-decoration:none;}
-  img{max-width:100%; display:block;}
-  .wrap{max-width:1120px; margin:0 auto; padding:0 24px;}
-
-  header{
-    position:sticky; top:0; z-index:50;
-    background:var(--navy);
-    color:var(--cream);
-  }
-  .nav{
-    display:flex; align-items:center; justify-content:space-between;
-    padding:18px 24px; max-width:1120px; margin:0 auto;
-  }
-  .brand{
-    display:flex; align-items:center; gap:16px;
-  }
-  .brand-logo{
-    font-size:2.2rem;
-    font-weight:700;
-    color:var(--gold);
-    letter-spacing:0.05em;
-    line-height:1;
-  }
-  .brand-text{
-    display:flex; flex-direction:column; gap:2px;
-  }
-  .brand-name{
-    font-size:0.9rem;
-    font-weight:700;
-    letter-spacing:0.05em;
-    color:var(--gold);
-  }
-  .brand-tagline{
-    font-size:0.7rem;
-    letter-spacing:0.1em;
-    text-transform:uppercase;
-    font-weight:600;
-    color:var(--cream);
-    opacity:0.9;
-  }
-  .nav-links{display:flex; gap:28px; font-size:0.9rem; letter-spacing:0.03em;}
-  .nav-links a{opacity:0.85; transition:opacity .2s;}
-  .nav-links a:hover{opacity:1;}
-  .nav-cta{
-    background:var(--gold);
-    color:var(--navy);
-    padding:10px 22px;
-    border-radius:2px;
-    font-weight:600;
-    font-size:0.85rem;
-    letter-spacing:0.02em;
-  }
-  @media (max-width:720px){ .nav-links{display:none;} }
-
-  .hero{
-    background:linear-gradient(160deg, var(--navy) 0%, var(--navy-light) 100%);
-    color:var(--cream);
-    padding:90px 24px 70px;
-    position:relative;
-    overflow:hidden;
-  }
-  .hero::after{
-    content:"";
-    position:absolute; inset:0;
-    background-image: repeating-linear-gradient(135deg, rgba(212,175,55,0.03) 0 2px, transparent 2px 26px);
-    pointer-events:none;
-  }
-  .hero-inner{max-width:1120px; margin:0 auto; position:relative; display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:center;}
-  .eyebrow{
-    color:var(--gold); text-transform:uppercase; letter-spacing:0.18em;
-    font-size:0.78rem; font-weight:600; margin-bottom:18px;
-  }
-  .hero h1{font-size:2.8rem; line-height:1.1; margin-bottom:20px;}
-  .hero h1 em{color:var(--gold); font-style:italic;}
-  .hero p{font-size:1.05rem; opacity:0.82; max-width:440px; margin-bottom:32px;}
-  .hero-actions{display:flex; gap:14px; flex-wrap:wrap;}
-  .btn{
-    display:inline-block; padding:12px 26px; border-radius:2px;
-    font-weight:600; font-size:0.92rem; letter-spacing:0.02em;
-    transition:transform .15s ease, box-shadow .15s ease;
-  }
-  .btn:hover{transform:translateY(-2px);}
-  .btn-gold{background:var(--gold); color:var(--navy);}
-  .btn-gold:hover{box-shadow:0 8px 24px rgba(212,175,55,0.4);}
-  .btn-outline{border:1px solid rgba(245,240,230,0.4); color:var(--cream);}
-
-  .hero-visual{
-    display:flex; justify-content:center; align-items:center;
-    position:relative;
-    gap:20px;
-  }
-  .hero-item-frame{
-    width:140px; height:220px;
-    background:rgba(245,240,230,0.08);
-    border:1px solid rgba(212,175,55,0.25);
-    border-radius:2px;
-    overflow:hidden;
-    display:flex; align-items:center; justify-content:center;
-    flex-shrink:0;
-  }
-  .hero-item-frame img{
-    width:100%; height:100%;
-    object-fit:cover;
-  }
-
-  @media (max-width:860px){
-    .hero-inner{grid-template-columns:1fr;}
-    .hero h1{font-size:2.2rem;}
-    .hero-visual{justify-content:flex-start; overflow-x:auto; padding-bottom:10px; margin-bottom:20px;}
-  }
-
-  .section-head{margin-bottom:40px;}
-  .section-head .eyebrow{color:var(--navy); opacity:0.55;}
-  .section-head h2{font-size:2.2rem; color:var(--navy);}
-
-  .categories{padding:70px 0; background:#fff; border-top:1px solid var(--line); border-bottom:1px solid var(--line);}
-  .cat-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:18px;}
-  .cat-card{
-    display:block;
-    padding:40px 20px; text-align:center;
-    border:1px solid var(--line); border-radius:2px;
-    transition:border-color .2s ease, background .2s ease;
-  }
-  .cat-card:hover{border-color:var(--gold); background:rgba(212,175,55,0.05);}
-  .cat-card .num{font-style:italic; color:var(--gold); font-size:1.3rem; display:block; margin-bottom:8px;}
-  .cat-card .label{font-size:0.95rem; color:var(--charcoal); font-weight:500;}
-  @media (max-width:720px){ .cat-grid{grid-template-columns:1fr 1fr;} }
-
-  .why{padding:80px 0;}
-  .why-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:32px;}
-  .why-item h3{font-size:1.1rem; margin-bottom:10px; color:var(--navy);}
-  .why-item p{opacity:0.75; font-size:0.94rem;}
-  @media (max-width:720px){ .why-grid{grid-template-columns:1fr;} }
-
-  .about{padding:70px 0; background:#fff; border-top:1px solid var(--line); border-bottom:1px solid var(--line);}
-  .about p{margin-bottom:18px; opacity:0.85; max-width:820px;}
-  .about p:last-child{margin-bottom:0;}
-
-  .visit{
-    background:var(--navy); color:var(--cream);
-    padding:80px 0;
-  }
-  .visit-grid{display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:start;}
-  .visit h2{color:var(--cream); font-size:2rem; margin-bottom:16px;}
-  .visit p{opacity:0.78; margin-bottom:26px;}
-  .info-row{display:flex; gap:14px; padding:14px 0; border-bottom:1px solid rgba(245,240,230,0.12);}
-  .info-row .label{color:var(--gold); font-size:0.78rem; text-transform:uppercase; letter-spacing:0.08em; min-width:90px; font-weight:600;}
-  .contact-actions{display:flex; flex-direction:column; gap:12px;}
-  .contact-btn{
-    display:flex; align-items:center; justify-content:space-between;
-    padding:16px 20px; border:1px solid rgba(245,240,230,0.2); border-radius:2px;
-    transition:background .2s ease, border-color .2s ease;
-  }
-  .contact-btn:hover{background:rgba(245,240,230,0.06); border-color:var(--gold);}
-  .contact-btn .arrow{color:var(--gold);}
-
-  footer{
-    padding:32px 24px; text-align:center; font-size:0.82rem; opacity:0.6;
-    background:var(--navy); color:var(--cream);
-    border-top:1px solid rgba(245,240,230,0.1);
-  }
-</style>
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ClothingStore",
-  "name": "W Collections Thrift Shop",
-  "url": "https://w-collections.vercel.app/womens-clothing.html",
-  "telephone": "+254722721692",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Ruhan Plaza, Shop 17",
-    "addressLocality": "Kahawa Sukari",
-    "addressCountry": "KE"
-  },
-  "image": "https://w-collections.vercel.app/images/item1.jpg",
-  "priceRange": "$$"
-}
-</script>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RRVTWGFVVP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-RRVTWGFVVP');
-
-  function trackContact(channel){
-    gtag('event', 'contact_click', {
-      channel: channel
-    });
-  }
-</script>
-
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <div class="nav">
-    <a class="brand" href="./index.html">
-      <div class="brand-logo">W</div>
-      <div class="brand-text">
-        <div class="brand-name">Collections</div>
-        <div class="brand-tagline">Thrift Shop</div>
-      </div>
-    </a>
-    <nav class="nav-links">
-      <a href="./index.html#categories">Shop</a>
-      <a href="./index.html#visit">Visit Us</a>
-    </nav>
-    <a class="nav-cta" href="./index.html#visit" onclick="trackContact('nav_visit_button')">Visit Shop</a>
+<header class="site-header">
+  <div class="container">
+    <div class="nav-shell glass">
+      <a href="index.html" class="logo">W <span>Collections</span></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="womens-clothing.html" class="active">Women</a></li>
+          <li><a href="mens-clothes.html">Men</a></li>
+          <li><a href="streetwear.html">Streetwear</a></li>
+          <li><a href="childrens-clothing.html">Kids</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="nav-cta">Visit Us</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
   </div>
 </header>
 
-<section class="hero">
-  <div class="hero-inner">
-    <div>
-      <div class="eyebrow"><a href="./index.html" style="color:inherit;">Home</a> · Womenswear</div>
-      <h1>Women's <em>Thrift</em> Clothing in Kahawa Sukari</h1>
-      <p>Dresses, tops, denim, and jackets — hand-picked women's mitumba, refreshed every week at Ruhan Plaza.</p>
-      <div class="hero-actions">
-        <a class="btn btn-gold" href="./index.html#visit" onclick="trackContact('hero_directions_button')">Get Directions</a>
-        <a class="btn btn-outline" href="./index.html#categories">Shop All Categories</a>
+<main>
+  <section class="hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a> / Women's Wear</div>
+      <div class="hero-inner glass" style="text-align:left; padding:40px 44px;">
+        <span class="hero-tag">Women</span>
+        <h1 style="font-size:clamp(1.8rem,4vw,2.8rem);">Women's Wear</h1>
+        <p class="lead" style="margin:0;">Dresses, tops, denim, skirts and more — sorted, checked, ready to wear.</p>
       </div>
     </div>
-    <div class="hero-visual">
-      <div class="hero-item-frame">
-        <img src="./images/item1.jpg" alt="Women's thrift fashion at W Collections Thrift Shop in Kahawa Sukari">
-      </div>
-      <div class="hero-item-frame">
-        <img src="./images/item2.jpg" alt="Women's thrift fashion at W Collections Thrift Shop in Kahawa Sukari">
-      </div>
-      <div class="hero-item-frame">
-        <img src="./images/item3.jpg" alt="Women's thrift fashion at W Collections Thrift Shop in Kahawa Sukari">
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
 
-<section class="about wrap" id="about">
-  <div class="section-head">
-    <div class="eyebrow">About This Collection</div>
-    <h2>Women's Mitumba You'll Actually Wear</h2>
-  </div>
-    <p>Looking for women's clothing in Kahawa Sukari? W Collections stocks a hand-picked selection of secondhand dresses, blouses, jeans, skirts, and jackets — checked piece by piece for quality before it ever reaches the rack.</p>
-    <p>Our women's collection changes every week, so regulars always find something new: casual everyday pieces, smart office wear, and statement items for going out.</p>
-    <p>Visit us at Ruhan Plaza, Shop 17, Kahawa Sukari, or message us on WhatsApp to ask what's currently in stock before you come by.</p>
-</section>
+  <section class="section">
+    <div class="container">
+      <div class="product-grid">
+        <div class="product-card glass">
+          <div class="thumb sw-women">W</div>
+          <div class="p-body">
+            <div>
+              <h4>Floral Wrap Dress</h4>
+            </div>
+            <span class="price">KSh 800</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-women">W</div>
+          <div class="p-body">
+            <div>
+              <h4>Denim Jacket</h4>
+            </div>
+            <span class="price">KSh 1,200</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-women">W</div>
+          <div class="p-body">
+            <div>
+              <h4>Ankara Print Skirt</h4>
+            </div>
+            <span class="price">KSh 600</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-women">W</div>
+          <div class="p-body">
+            <div>
+              <h4>Knit Sweater</h4>
+            </div>
+            <span class="price">KSh 700</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-women">W</div>
+          <div class="p-body">
+            <div>
+              <h4>High-Waist Jeans</h4>
+            </div>
+            <span class="price">KSh 900</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-women">W</div>
+          <div class="p-body">
+            <div>
+              <h4>Blouse Set</h4>
+            </div>
+            <span class="price">KSh 500</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<section class="categories" id="categories">
-  <div class="wrap">
-    <div class="section-head">
-      <div class="eyebrow">Browse</div>
-      <h2>Shop other categories</h2>
+  <section class="section">
+    <div class="container">
+      <div class="cta-band glass">
+        <h2>See it in person</h2>
+        <p>New women stock lands weekly at Ruhan Plaza, Shop 17.</p>
+        <a href="contact.html" class="btn btn-primary">Get Directions</a>
+      </div>
     </div>
-    <div class="cat-grid">
-      <a class="cat-card" href="./mens-clothes.html"><span class="num">01</span><span class="label">Menswear</span></a>
-      <a class="cat-card" href="./childrens-clothing.html"><span class="num">03</span><span class="label">Children's</span></a>
-      <a class="cat-card" href="./streetwear.html"><span class="num">04</span><span class="label">Streetwear</span></a>
-    </div>
-  </div>
-</section>
-
-<section class="visit" id="visit">
-  <div class="wrap visit-grid">
-    <div>
-      <h2>Come find your next favorite piece</h2>
-      <p>Drop by the shop, or reach out first to ask if we have what you're after in stock.</p>
-      <div class="info-row"><span class="label">Address</span><span>Ground Floor, Ruhan Plaza, Shop No. 17</span></div>
-      <div class="info-row"><span class="label">Hours</span><span>Mon–Sat, 9:00 AM – 7:00 PM</span></div>
-    </div>
-    <div class="contact-actions">
-      <a class="contact-btn" href="https://wa.me/254722721692" onclick="trackContact('whatsapp')" target="_blank">
-        <span>Chat on WhatsApp</span><span class="arrow">→</span>
-      </a>
-      <a class="contact-btn" href="tel:+254722721692" onclick="trackContact('phone_call')">
-        <span>Call the Shop</span><span class="arrow">→</span>
-      </a>
-      <a class="contact-btn" href="https://maps.google.com" onclick="trackContact('get_directions')" target="_blank">
-        <span>Get Directions to Ruhan Plaza</span><span class="arrow">→</span>
-      </a>
-    </div>
-  </div>
-</section>
+  </section>
+</main>
 
 <footer>
-  © 2026 W Collections Thrift Shop · Ground Floor, Ruhan Plaza, Shop 17 · Site by ROBY TECH
+  <div class="container">
+    <div class="footer-inner glass">
+      <div class="footer-grid">
+        <div>
+          <h4>W Collections</h4>
+          <p style="color:var(--text-muted); font-size:0.9rem; max-width:320px;">Quality mitumba and streetwear in Kahawa Sukari — hand-picked, honestly priced.</p>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="womens-clothing.html">Women</a></li>
+            <li><a href="mens-clothes.html">Men</a></li>
+            <li><a href="streetwear.html">Streetwear</a></li>
+            <li><a href="childrens-clothing.html">Kids</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Shop Info</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="tel:+254722721692">+254 722 721 692</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 W Collections Thrift Shop</span>
+        <span>Ruhan Plaza, Shop 17, Kahawa Sukari</span>
+      </div>
+    </div>
+  </div>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
