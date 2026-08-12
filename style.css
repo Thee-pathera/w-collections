@@ -6,18 +6,18 @@
 
 :root{
   /* Color tokens */
-  --bg-deep:      #1B1533;
-  --bg-mid:       #2A1F49;
-  --bg-light:     #3D2B56;
+  --bg-deep:      #0B1530;
+  --bg-mid:       #122145;
+  --bg-light:     #1B3160;
   --amber:        #E8A33D;
   --amber-soft:   #F2C374;
   --coral:        #E85D75;
   --text-primary: #F5F1EA;
-  --text-muted:   #B8AFC9;
+  --text-muted:   #A9B7D4;
   --glass-fill:   rgba(255,255,255,0.07);
   --glass-fill-hi:rgba(255,255,255,0.13);
   --glass-border: rgba(255,255,255,0.15);
-  --shadow-deep:  rgba(10,6,24,0.45);
+  --shadow-deep:  rgba(3,7,20,0.45);
 
   --font-display: 'Archivo Black', 'Arial Black', sans-serif;
   --font-body: 'Inter', -apple-system, sans-serif;
@@ -225,7 +225,7 @@ nav a.active::after{
   position:absolute; top:14px; right:14px;
   width: 34px; height:34px;
   border-radius: 999px;
-  background: rgba(27,21,51,0.5);
+  background: rgba(11,21,48,0.5);
   border: 1px solid var(--glass-border);
   display:flex; align-items:center; justify-content:center;
   font-size: 0.75rem;
