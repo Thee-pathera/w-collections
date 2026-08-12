@@ -52,3 +52,22 @@ if (menuButton && mobileMenu) {
     });
   });
 }
+
+/* CATEGORY PAGE MOBILE NAV */
+
+document.querySelectorAll(".nav-toggle").forEach(button => {
+  button.addEventListener("click", () => {
+    const nav = button.closest(".nav-shell");
+    const menu = nav ? nav.querySelector("ul") : null;
+
+    if (!menu) return;
+
+    const open = menu.classList.toggle("mobile-open");
+
+    button.setAttribute("aria-expanded", String(open));
+    button.setAttribute(
+      "aria-label",
+      open ? "Close navigation menu" : "Open navigation menu"
+    );
+  });
+});
