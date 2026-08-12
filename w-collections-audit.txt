@@ -1,0 +1,1127 @@
+===== FILE TREE =====
+./README.md
+./about.html
+./childrens-clothing.html
+./contact.html
+./google169c0a09a4d8e690.html
+./images/item1.jpg
+./images/item2.jpg
+./images/item3.jpg
+./index.html
+./mens-clothes.html
+./robots.txt
+./script.js
+./sitemap.xml
+./streetwear.html
+./style.css
+./style.css.backup
+./style.css.hero-backup
+./style.css.royal-backup
+./w-collections-audit.txt
+./womens-clothing.html
+
+===== HTML FILES =====
+
+########## about.html ##########
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us | W Collections Thrift Shop</title>
+<meta name="description" content="Meet W Collections Thrift Shop — Kahawa Sukari's spot for quality-checked, honestly priced mitumba and streetwear.">
+<link rel="canonical" href="https://w-collections.vercel.app/about.html">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-bright">
+<div class="orb-mid" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="container">
+    <div class="nav-shell glass">
+      <a href="index.html" class="logo">W <span>Collections</span></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="womens-clothing.html">Women</a></li>
+          <li><a href="mens-clothes.html">Men</a></li>
+          <li><a href="streetwear.html">Streetwear</a></li>
+          <li><a href="childrens-clothing.html">Kids</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="contact.html" class="nav-cta">Visit Us</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <div class="hero-inner glass">
+        <span class="hero-tag">Our Story</span>
+        <h1>Built rack by rack in <em>Kahawa Sukari</em></h1>
+        <p class="lead">W Collections started with a simple idea: thrifting in Kahawa Sukari should mean real quality, not a gamble.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="split glass" style="padding:36px;">
+        <div class="visual">Sorted. Checked. Ready to wear.</div>
+        <div class="copy">
+          <h2>Why W Collections</h2>
+          <p>Every bale we open gets sorted and checked by hand — we pull what's genuinely good and leave the rest. That's the difference between digging through a pile and actually finding something you'll wear.</p>
+          <p>We stock for the whole family: women's and men's everyday wear, streetwear for the culture, and kids' clothing that can take a beating and still look good.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="stat-row glass">
+        <div class="stat"><b>100%</b><span>Hand-checked stock</span></div>
+        <div class="stat"><b>Weekly</b><span>New arrivals</span></div>
+        <div class="stat"><b>4</b><span>Categories covered</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta-band glass">
+        <h2>Come see the rails for yourself</h2>
+        <p>Ruhan Plaza, Shop 17, Kahawa Sukari — open daily.</p>
+        <a href="contact.html" class="btn btn-primary">Get Directions</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-inner glass">
+      <div class="footer-grid">
+        <div>
+          <h4>W Collections</h4>
+          <p style="color:var(--text-muted); font-size:0.9rem; max-width:320px;">Quality mitumba and streetwear in Kahawa Sukari — hand-picked, honestly priced.</p>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="womens-clothing.html">Women</a></li>
+            <li><a href="mens-clothes.html">Men</a></li>
+            <li><a href="streetwear.html">Streetwear</a></li>
+            <li><a href="childrens-clothing.html">Kids</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Shop Info</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="tel:+254722721692">+254 722 721 692</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 W Collections Thrift Shop</span>
+        <span>Ruhan Plaza, Shop 17, Kahawa Sukari</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+########## childrens-clothing.html ##########
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Children's Wear | W Collections Thrift Shop</title>
+<meta name="description" content="Shop children's wear at W Collections Thrift Shop, Kahawa Sukari. Everyday and occasion wear for kids — built to survive playtime.">
+<link rel="canonical" href="https://w-collections.vercel.app/childrens-clothing.html">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-dark kids-page">
+<div class="orb-mid" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="container">
+    <div class="nav-shell glass">
+      <a href="index.html" class="logo">W <span>Collections</span></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="womens-clothing.html">Women</a></li>
+          <li><a href="mens-clothes.html">Men</a></li>
+          <li><a href="streetwear.html">Streetwear</a></li>
+          <li><a href="childrens-clothing.html" class="active">Kids</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="nav-cta">Visit Us</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a> / Children's Wear</div>
+      <div class="hero-inner glass" style="text-align:left; padding:40px 44px;">
+        <span class="hero-tag">Kids</span>
+        <h1 style="font-size:clamp(1.8rem,4vw,2.8rem);">Children's Wear</h1>
+        <p class="lead" style="margin:0;">Everyday and occasion wear for kids — built to survive playtime.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="product-grid">
+        <div class="product-card glass">
+          <div class="thumb sw-kids">K</div>
+          <div class="p-body">
+            <div>
+              <h4>Kids Denim Overalls</h4>
+            </div>
+            <span class="price">KSh 500</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-kids">K</div>
+          <div class="p-body">
+            <div>
+              <h4>Printed T-Shirt</h4>
+            </div>
+            <span class="price">KSh 250</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-kids">K</div>
+          <div class="p-body">
+            <div>
+              <h4>School Cardigan</h4>
+            </div>
+            <span class="price">KSh 400</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-kids">K</div>
+          <div class="p-body">
+            <div>
+              <h4>Party Dress</h4>
+            </div>
+            <span class="price">KSh 600</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-kids">K</div>
+          <div class="p-body">
+            <div>
+              <h4>Track Pants</h4>
+            </div>
+            <span class="price">KSh 350</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-kids">K</div>
+          <div class="p-body">
+            <div>
+              <h4>Rain Jacket</h4>
+            </div>
+            <span class="price">KSh 550</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta-band glass">
+        <h2>See it in person</h2>
+        <p>New kids stock lands weekly at Ruhan Plaza, Shop 17.</p>
+        <a href="contact.html" class="btn btn-primary">Get Directions</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-inner glass">
+      <div class="footer-grid">
+        <div>
+          <h4>W Collections</h4>
+          <p style="color:var(--text-muted); font-size:0.9rem; max-width:320px;">Quality mitumba and streetwear in Kahawa Sukari — hand-picked, honestly priced.</p>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="womens-clothing.html">Women</a></li>
+            <li><a href="mens-clothes.html">Men</a></li>
+            <li><a href="streetwear.html">Streetwear</a></li>
+            <li><a href="childrens-clothing.html">Kids</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Shop Info</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="tel:+254722721692">+254 722 721 692</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 W Collections Thrift Shop</span>
+        <span>Ruhan Plaza, Shop 17, Kahawa Sukari</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+########## contact.html ##########
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact & Location | W Collections Thrift Shop</title>
+<meta name="description" content="Visit W Collections Thrift Shop at Ruhan Plaza, Shop 17, Kahawa Sukari. Call +254 722 721 692 or send us a message.">
+<link rel="canonical" href="https://w-collections.vercel.app/contact.html">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-dark">
+<div class="orb-mid" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="container">
+    <div class="nav-shell glass">
+      <a href="index.html" class="logo">W <span>Collections</span></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="womens-clothing.html">Women</a></li>
+          <li><a href="mens-clothes.html">Men</a></li>
+          <li><a href="streetwear.html">Streetwear</a></li>
+          <li><a href="childrens-clothing.html">Kids</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="nav-cta active">Visit Us</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <div class="hero-inner glass">
+        <span class="hero-tag">Get In Touch</span>
+        <h1>Come say <em>hi</em></h1>
+        <p class="lead">We're at Ruhan Plaza in Kahawa Sukari — easy to find, easy to shop.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="glass" style="padding:32px;">
+          <ul class="info-list">
+            <li>
+              <div class="ic">📍</div>
+              <div>
+                <h4>Address</h4>
+                <p>Ruhan Plaza, Shop 17, Kahawa Sukari, Nairobi</p>
+              </div>
+            </li>
+            <li>
+              <div class="ic">📞</div>
+              <div>
+                <h4>Phone</h4>
+                <p><a href="tel:+254722721692">+254 722 721 692</a></p>
+              </div>
+            </li>
+            <li>
+              <div class="ic">🕒</div>
+              <div>
+                <h4>Hours</h4>
+                <p>Open daily · 8:00 AM – 7:00 PM</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form glass">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-row">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="What are you looking for?"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="glass map-embed">
+        <iframe
+          src="https://www.google.com/maps?q=Ruhan+Plaza+Kahawa+Sukari&output=embed"
+          allowfullscreen loading="lazy" title="W Collections location map"></iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-inner glass">
+      <div class="footer-grid">
+        <div>
+          <h4>W Collections</h4>
+          <p style="color:var(--text-muted); font-size:0.9rem; max-width:320px;">Quality mitumba and streetwear in Kahawa Sukari — hand-picked, honestly priced.</p>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="womens-clothing.html">Women</a></li>
+            <li><a href="mens-clothes.html">Men</a></li>
+            <li><a href="streetwear.html">Streetwear</a></li>
+            <li><a href="childrens-clothing.html">Kids</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Shop Info</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="tel:+254722721692">+254 722 721 692</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 W Collections Thrift Shop</span>
+        <span>Ruhan Plaza, Shop 17, Kahawa Sukari</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+########## google169c0a09a4d8e690.html ##########
+google-site-verification: google169c0a09a4d8e690.html
+########## index.html ##########
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>W Collections Thrift Shop | Kahawa Sukari, Nairobi</title>
+<meta name="description" content="W Collections Thrift Shop in Kahawa Sukari — quality mitumba, streetwear and everyday fashion for women, men and kids. Ruhan Plaza, Shop 17.">
+<link rel="canonical" href="https://w-collections.vercel.app/">
+<meta property="og:title" content="W Collections Thrift Shop | Kahawa Sukari">
+<meta property="og:description" content="Quality mitumba and streetwear in Kahawa Sukari, Nairobi.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ClothingStore",
+  "name": "W Collections Thrift Shop",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Ruhan Plaza, Shop 17",
+    "addressLocality": "Kahawa Sukari",
+    "addressCountry": "KE"
+  },
+  "telephone": "+254722721692"
+}
+</script>
+</head>
+<body class="theme-dark">
+<div class="orb-mid" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="container">
+    <div class="nav-shell glass">
+      <a href="index.html" class="logo">W <span>Collections</span></a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="womens-clothing.html">Women</a></li>
+          <li><a href="mens-clothes.html">Men</a></li>
+          <li><a href="streetwear.html">Streetwear</a></li>
+          <li><a href="childrens-clothing.html">Kids</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="nav-cta">Visit Us</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-inner glass">
+        <span class="hero-tag">W COLLECTIONS · KAHawa SUKARI</span>
+        <h1>Thrifted finds worth <em>bragging</em> about</h1>
+        <p class="lead">Hand-picked mitumba and streetwear for women, men and kids — quality pieces, honest prices, no digging required.</p>
+        <div class="hero-actions">
+          <a href="streetwear.html" class="btn btn-primary">Shop Streetwear</a>
+          <a href="contact.html" class="btn btn-ghost">Find Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Shop by category</span>
+        <h2>Pick your rack</h2>
+        <p>Every category is sorted and quality-checked before it hits the floor.</p>
+      </div>
+      <div class="tag-grid">
+        <a href="womens-clothing.html" class="tag-card glass">
+          <div class="tag-hole">01</div>
+          <div class="swatch sw-women">W</div>
+          <div class="tag-body">
+            <h3>Women's Wear</h3>
+            <p>Dresses, tops, denim &amp; more</p>
+          </div>
+        </a>
+        <a href="mens-clothes.html" class="tag-card glass">
+          <div class="tag-hole">02</div>
+          <div class="swatch sw-men">M</div>
+          <div class="tag-body">
+            <h3>Men's Wear</h3>
+            <p>Shirts, jackets, trousers</p>
+          </div>
+        </a>
+        <a href="streetwear.html" class="tag-card glass">
+          <div class="tag-hole">03</div>
+          <div class="swatch sw-street">S</div>
+          <div class="tag-body">
+            <h3>Streetwear</h3>
+            <p>Hoodies, tees, sneakers</p>
+          </div>
+        </a>
+        <a href="childrens-clothing.html" class="tag-card glass">
+          <div class="tag-hole">04</div>
+          <div class="swatch sw-kids">K</div>
+          <div class="tag-body">
+            <h3>Children's Wear</h3>
+            <p>Everyday &amp; occasion wear</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="feature-strip">
+        <div class="feature-card glass">
+          <div class="icon">✓</div>
+          <h3>Quality-checked</h3>
+          <p>Every piece is inspected before it's put out — no surprises when you get home.</p>
+        </div>
+        <div class="feature-card glass">
+          <div class="icon">₭</div>
+          <h3>Honest pricing</h3>
+          <p>Fair prices for real thrift value — no inflated "vintage" markups.</p>
+        </div>
+        <div class="feature-card glass">
+          <div class="icon">📍</div>
+          <h3>Easy to find</h3>
+          <p>Ruhan Plaza, Shop 17, right in the heart of Kahawa Sukari.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="split glass" style="padding:36px;">
+        <div class="visual">Fresh stock every week</div>
+        <div class="copy">
+          <h2>New arrivals, every week</h2>
+          <p>We restock regularly, so there's always something new on the rail — from everyday basics to standout streetwear pieces.</p>
+          <p>Follow us or drop by to see what's just come in.</p>
+          <a href="about.html" class="btn btn-primary">Our Story</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta-band glass">
+        <h2>Come find your next fit</h2>
+        <p>Open daily at Ruhan Plaza, Shop 17, Kahawa Sukari.</p>
+        <a href="contact.html" class="btn btn-primary">Get Directions</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-inner glass">
+      <div class="footer-grid">
+        <div>
+          <h4>W Collections</h4>
+          <p style="color:var(--text-muted); font-size:0.9rem; max-width:320px;">Quality mitumba and streetwear in Kahawa Sukari — hand-picked, honestly priced.</p>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="womens-clothing.html">Women</a></li>
+            <li><a href="mens-clothes.html">Men</a></li>
+            <li><a href="streetwear.html">Streetwear</a></li>
+            <li><a href="childrens-clothing.html">Kids</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Shop Info</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="tel:+254722721692">+254 722 721 692</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 W Collections Thrift Shop</span>
+        <span>Ruhan Plaza, Shop 17, Kahawa Sukari</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+########## mens-clothes.html ##########
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Men's Wear | W Collections Thrift Shop</title>
+<meta name="description" content="Shop men's wear at W Collections Thrift Shop, Kahawa Sukari. Shirts, jackets, trousers and everyday essentials — quality-checked before they hit the rail.">
+<link rel="canonical" href="https://w-collections.vercel.app/mens-clothes.html">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-dark">
+<div class="orb-mid" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="container">
+    <div class="nav-shell glass">
+      <a href="index.html" class="logo">W <span>Collections</span></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="womens-clothing.html">Women</a></li>
+          <li><a href="mens-clothes.html" class="active">Men</a></li>
+          <li><a href="streetwear.html">Streetwear</a></li>
+          <li><a href="childrens-clothing.html">Kids</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="nav-cta">Visit Us</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a> / Men's Wear</div>
+      <div class="hero-inner glass" style="text-align:left; padding:40px 44px;">
+        <span class="hero-tag">Men</span>
+        <h1 style="font-size:clamp(1.8rem,4vw,2.8rem);">Men's Wear</h1>
+        <p class="lead" style="margin:0;">Shirts, jackets, trousers and everyday essentials — quality-checked before they hit the rail.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="product-grid">
+        <div class="product-card glass">
+          <div class="thumb sw-men">M</div>
+          <div class="p-body">
+            <div>
+              <h4>Corduroy Jacket</h4>
+            </div>
+            <span class="price">KSh 1,300</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-men">M</div>
+          <div class="p-body">
+            <div>
+              <h4>Oxford Shirt</h4>
+            </div>
+            <span class="price">KSh 600</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-men">M</div>
+          <div class="p-body">
+            <div>
+              <h4>Chino Trousers</h4>
+            </div>
+            <span class="price">KSh 800</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-men">M</div>
+          <div class="p-body">
+            <div>
+              <h4>Denim Shirt</h4>
+            </div>
+            <span class="price">KSh 700</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-men">M</div>
+          <div class="p-body">
+            <div>
+              <h4>Wool Blazer</h4>
+            </div>
+            <span class="price">KSh 1,800</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-men">M</div>
+          <div class="p-body">
+            <div>
+              <h4>Cargo Pants</h4>
+            </div>
+            <span class="price">KSh 900</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta-band glass">
+        <h2>See it in person</h2>
+        <p>New men stock lands weekly at Ruhan Plaza, Shop 17.</p>
+        <a href="contact.html" class="btn btn-primary">Get Directions</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-inner glass">
+      <div class="footer-grid">
+        <div>
+          <h4>W Collections</h4>
+          <p style="color:var(--text-muted); font-size:0.9rem; max-width:320px;">Quality mitumba and streetwear in Kahawa Sukari — hand-picked, honestly priced.</p>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="womens-clothing.html">Women</a></li>
+            <li><a href="mens-clothes.html">Men</a></li>
+            <li><a href="streetwear.html">Streetwear</a></li>
+            <li><a href="childrens-clothing.html">Kids</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Shop Info</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="tel:+254722721692">+254 722 721 692</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 W Collections Thrift Shop</span>
+        <span>Ruhan Plaza, Shop 17, Kahawa Sukari</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+########## streetwear.html ##########
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Streetwear | W Collections Thrift Shop</title>
+<meta name="description" content="Shop streetwear at W Collections Thrift Shop, Kahawa Sukari. Hoodies, graphic tees, sneakers and pieces that carry the culture.">
+<link rel="canonical" href="https://w-collections.vercel.app/streetwear.html">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-bright">
+<div class="orb-mid" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="container">
+    <div class="nav-shell glass">
+      <a href="index.html" class="logo">W <span>Collections</span></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="womens-clothing.html">Women</a></li>
+          <li><a href="mens-clothes.html">Men</a></li>
+          <li><a href="streetwear.html" class="active">Streetwear</a></li>
+          <li><a href="childrens-clothing.html">Kids</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="nav-cta">Visit Us</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a> / Streetwear</div>
+      <div class="hero-inner glass" style="text-align:left; padding:40px 44px;">
+        <span class="hero-tag">Streetwear</span>
+        <h1 style="font-size:clamp(1.8rem,4vw,2.8rem);">Streetwear</h1>
+        <p class="lead" style="margin:0;">Hoodies, graphic tees, sneakers and pieces that carry the culture.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="product-grid">
+        <div class="product-card glass">
+          <div class="thumb sw-street">S</div>
+          <div class="p-body">
+            <div>
+              <h4>Graphic Hoodie</h4>
+            </div>
+            <span class="price">KSh 1,500</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-street">S</div>
+          <div class="p-body">
+            <div>
+              <h4>Vintage Tee</h4>
+            </div>
+            <span class="price">KSh 500</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-street">S</div>
+          <div class="p-body">
+            <div>
+              <h4>Cargo Joggers</h4>
+            </div>
+            <span class="price">KSh 1,000</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-street">S</div>
+          <div class="p-body">
+            <div>
+              <h4>Bomber Jacket</h4>
+            </div>
+            <span class="price">KSh 1,700</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-street">S</div>
+          <div class="p-body">
+            <div>
+              <h4>Retro Sneakers</h4>
+            </div>
+            <span class="price">KSh 2,200</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-street">S</div>
+          <div class="p-body">
+            <div>
+              <h4>Bucket Hat</h4>
+            </div>
+            <span class="price">KSh 350</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta-band glass">
+        <h2>See it in person</h2>
+        <p>New streetwear stock lands weekly at Ruhan Plaza, Shop 17.</p>
+        <a href="contact.html" class="btn btn-primary">Get Directions</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-inner glass">
+      <div class="footer-grid">
+        <div>
+          <h4>W Collections</h4>
+          <p style="color:var(--text-muted); font-size:0.9rem; max-width:320px;">Quality mitumba and streetwear in Kahawa Sukari — hand-picked, honestly priced.</p>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="womens-clothing.html">Women</a></li>
+            <li><a href="mens-clothes.html">Men</a></li>
+            <li><a href="streetwear.html">Streetwear</a></li>
+            <li><a href="childrens-clothing.html">Kids</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Shop Info</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="tel:+254722721692">+254 722 721 692</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 W Collections Thrift Shop</span>
+        <span>Ruhan Plaza, Shop 17, Kahawa Sukari</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+########## womens-clothing.html ##########
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Women's Wear | W Collections Thrift Shop</title>
+<meta name="description" content="Shop women's wear at W Collections Thrift Shop, Kahawa Sukari. Dresses, tops, denim, skirts and more — sorted, checked, ready to wear.">
+<link rel="canonical" href="https://w-collections.vercel.app/womens-clothing.html">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-bright">
+<div class="orb-mid" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="container">
+    <div class="nav-shell glass">
+      <a href="index.html" class="logo">W <span>Collections</span></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="womens-clothing.html" class="active">Women</a></li>
+          <li><a href="mens-clothes.html">Men</a></li>
+          <li><a href="streetwear.html">Streetwear</a></li>
+          <li><a href="childrens-clothing.html">Kids</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="nav-cta">Visit Us</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a> / Women's Wear</div>
+      <div class="hero-inner glass" style="text-align:left; padding:40px 44px;">
+        <span class="hero-tag">Women</span>
+        <h1 style="font-size:clamp(1.8rem,4vw,2.8rem);">Women's Wear</h1>
+        <p class="lead" style="margin:0;">Dresses, tops, denim, skirts and more — sorted, checked, ready to wear.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="product-grid">
+        <div class="product-card glass">
+          <div class="thumb sw-women">W</div>
+          <div class="p-body">
+            <div>
+              <h4>Floral Wrap Dress</h4>
+            </div>
+            <span class="price">KSh 800</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-women">W</div>
+          <div class="p-body">
+            <div>
+              <h4>Denim Jacket</h4>
+            </div>
+            <span class="price">KSh 1,200</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-women">W</div>
+          <div class="p-body">
+            <div>
+              <h4>Ankara Print Skirt</h4>
+            </div>
+            <span class="price">KSh 600</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-women">W</div>
+          <div class="p-body">
+            <div>
+              <h4>Knit Sweater</h4>
+            </div>
+            <span class="price">KSh 700</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-women">W</div>
+          <div class="p-body">
+            <div>
+              <h4>High-Waist Jeans</h4>
+            </div>
+            <span class="price">KSh 900</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-women">W</div>
+          <div class="p-body">
+            <div>
+              <h4>Blouse Set</h4>
+            </div>
+            <span class="price">KSh 500</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta-band glass">
+        <h2>See it in person</h2>
+        <p>New women stock lands weekly at Ruhan Plaza, Shop 17.</p>
+        <a href="contact.html" class="btn btn-primary">Get Directions</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-inner glass">
+      <div class="footer-grid">
+        <div>
+          <h4>W Collections</h4>
+          <p style="color:var(--text-muted); font-size:0.9rem; max-width:320px;">Quality mitumba and streetwear in Kahawa Sukari — hand-picked, honestly priced.</p>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="womens-clothing.html">Women</a></li>
+            <li><a href="mens-clothes.html">Men</a></li>
+            <li><a href="streetwear.html">Streetwear</a></li>
+            <li><a href="childrens-clothing.html">Kids</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Shop Info</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="tel:+254722721692">+254 722 721 692</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 W Collections Thrift Shop</span>
+        <span>Ruhan Plaza, Shop 17, Kahawa Sukari</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+===== JAVASCRIPT =====
+document.addEventListener('DOMContentLoaded', () => {
+  const toggle = document.querySelector('.nav-toggle');
+  const menu = document.querySelector('nav ul');
+  if (toggle && menu) {
+    toggle.addEventListener('click', () => menu.classList.toggle('open'));
+  }
+
+  const form = document.querySelector('.contact-form');
+  if (form) {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const btn = form.querySelector('button[type="submit"]');
+      const original = btn.textContent;
+      btn.textContent = 'Message sent';
+      form.reset();
+      setTimeout(() => { btn.textContent = original; }, 2500);
+    });
+  }
+});
