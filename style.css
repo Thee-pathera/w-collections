@@ -5,26 +5,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800&display=swap');
 
 :root{
-  /* Color tokens */
-  --bg-deep:      #0B1530;
-  --bg-mid:       #122145;
-  --bg-light:     #1B3160;
-  --amber:        #E8A33D;
-  --amber-soft:   #F2C374;
-  --coral:        #E85D75;
-  --text-primary: #F5F1EA;
-  --text-muted:   #A9B7D4;
-  --glass-fill:   rgba(255,255,255,0.07);
-  --glass-fill-hi:rgba(255,255,255,0.13);
-  --glass-border: rgba(255,255,255,0.15);
-  --shadow-deep:  rgba(3,7,20,0.45);
+  --bg-deep:#081B4B;
+  --bg-mid:#0E2A6D;
+  --bg-light:#163C8C;
 
-  --font-display: 'Archivo Black', 'Arial Black', sans-serif;
-  --font-body: 'Inter', -apple-system, sans-serif;
+  --gold:#D4AF37;
+  --gold-soft:#E5C76B;
+  --gold-dark:#B8901F;
 
-  --radius: 20px;
-  --radius-sm: 12px;
-  --container: 1160px;
+  --text-primary:#F8F6F0;
+  --text-muted:#C6D2EA;
+
+  --glass-fill:rgba(255,255,255,.08);
+  --glass-fill-hi:rgba(255,255,255,.14);
+  --glass-border:rgba(255,255,255,.16);
+  --shadow-deep:rgba(0,0,0,.45);
+
+  --font-display:"Archivo Black","Arial Black",sans-serif;
+  --font-body:"Inter",-apple-system,sans-serif;
+
+  --radius:20px;
+  --radius-sm:12px;
+  --container:1160px;
 }
 
 *{ box-sizing: border-box; margin:0; padding:0; }
@@ -60,8 +62,8 @@ body::before{
   width: 55vw;
   height: 55vw;
   background:
-    radial-gradient(circle at 30% 30%, rgba(61,107,232,0.55), transparent 60%),
-    radial-gradient(circle at 70% 70%, rgba(232,163,61,0.35), transparent 65%);
+    radial-gradient(circle at 25% 25%, rgba(40,90,220,.38), transparent 60%),
+    radial-gradient(circle at 80% 70%, rgba(212,175,55,.22), transparent 65%);
 }
 
 body::after{
@@ -70,8 +72,8 @@ body::after{
   width: 60vw;
   height: 60vw;
   background:
-    radial-gradient(circle at 60% 40%, rgba(232,93,117,0.4), transparent 60%),
-    radial-gradient(circle at 30% 70%, rgba(27,49,96,0.6), transparent 65%);
+    radial-gradient(circle at 55% 35%, rgba(212,175,55,.20), transparent 60%),
+    radial-gradient(circle at 25% 70%, rgba(8,27,75,.55), transparent 65%);
 }
 
 .orb-mid{
@@ -85,8 +87,8 @@ body::after{
   border-radius: 50%;
   filter: blur(70px);
   background:
-    radial-gradient(circle at 40% 40%, rgba(242,195,116,0.3), transparent 55%),
-    radial-gradient(circle at 65% 65%, rgba(61,107,232,0.3), transparent 60%);
+    radial-gradient(circle at 45% 45%, rgba(212,175,55,.18), transparent 55%),
+    radial-gradient(circle at 70% 70%, rgba(40,90,220,.20), transparent 60%);
 }
 
 header.site-header,
@@ -135,7 +137,7 @@ header.site-header{
   letter-spacing: 0.5px;
   color: var(--text-primary);
 }
-.logo span{ color: var(--amber); }
+.logo span{ color: var(--gold); }
 
 nav ul{ display:flex; gap: 28px; }
 nav a{
@@ -151,18 +153,18 @@ nav a.active::after{
   position:absolute;
   left:0; right:0; bottom:-8px;
   height:2px;
-  background: var(--amber);
+  background: var(--gold);
   border-radius: 2px;
 }
 .nav-cta{
-  background: var(--amber);
+  background: var(--gold);
   color: var(--bg-deep) !important;
   padding: 9px 18px;
   border-radius: 999px;
   font-weight: 700 !important;
   font-size: 0.85rem !important;
 }
-.nav-cta:hover{ background: var(--amber-soft); }
+.nav-cta:hover{ background: var(--gold-soft); }
 
 .nav-toggle{ display:none; background:none; border:none; color:var(--text-primary); font-size:1.6rem; cursor:pointer; }
 
@@ -182,7 +184,7 @@ nav a.active::after{
   font-weight: 700;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: var(--amber);
+  color: var(--gold);
   background: rgba(232,163,61,0.12);
   border: 1px solid rgba(232,163,61,0.35);
   padding: 6px 14px;
@@ -197,7 +199,7 @@ nav a.active::after{
 }
 .hero h1 em{
   font-style: normal;
-  color: var(--coral);
+  color: var(--gold);
 }
 .hero p.lead{
   max-width: 560px;
@@ -217,8 +219,8 @@ nav a.active::after{
   font-size: 0.92rem;
   transition: transform .18s ease, background .18s ease;
 }
-.btn-primary{ background: var(--amber); color: var(--bg-deep); }
-.btn-primary:hover{ transform: translateY(-2px); background: var(--amber-soft); }
+.btn-primary{ background: var(--gold); color: var(--bg-deep); }
+.btn-primary:hover{ transform: translateY(-2px); background: var(--gold-soft); }
 .btn-ghost{
   background: var(--glass-fill);
   border: 1px solid var(--glass-border);
@@ -238,7 +240,7 @@ nav a.active::after{
   font-weight: 700;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: var(--coral);
+  color: var(--gold);
   margin-bottom: 10px;
   display:block;
 }
@@ -284,10 +286,10 @@ nav a.active::after{
   font-weight:700;
 }
 
-.sw-women{ background: linear-gradient(135deg, #E85D75, #B33D5C); }
-.sw-men{ background: linear-gradient(135deg, #3D6BE8, #2A3D7A); }
-.sw-street{ background: linear-gradient(135deg, #E8A33D, #B3722A); }
-.sw-kids{ background: linear-gradient(135deg, #3DE8B0, #2A9B7A); }
+.sw-women{ background: linear-gradient(135deg, #D4AF37, #A87918); }
+.sw-men{ background: linear-gradient(135deg, #1B4FC9, #0E2A6D); }
+.sw-street{ background: linear-gradient(135deg, #295CDB, #163C8C); }
+.sw-kids{ background: linear-gradient(135deg, #4E79E8, #234FAE); }
 
 /* ---------- Feature strip ---------- */
 .feature-strip{
@@ -300,7 +302,7 @@ nav a.active::after{
   width: 44px; height:44px;
   border-radius: 12px;
   background: rgba(232,163,61,0.15);
-  color: var(--amber);
+  color: var(--gold);
   display:flex; align-items:center; justify-content:center;
   font-size: 1.2rem;
   margin-bottom: 14px;
@@ -317,7 +319,7 @@ nav a.active::after{
 }
 .split .visual{
   height: 320px;
-  background: linear-gradient(135deg, rgba(232,163,61,0.25), rgba(232,93,117,0.2));
+  background: linear-gradient(135deg, rgba(212,175,55,.18), rgba(20,60,140,.25));
   display:flex; align-items:center; justify-content:center;
   font-family: var(--font-display);
   color: rgba(255,255,255,0.6);
@@ -340,7 +342,7 @@ nav a.active::after{
   display:block;
   font-family: var(--font-display);
   font-size: 2rem;
-  color: var(--amber);
+  color: var(--gold);
 }
 .stat-row .stat span{ color: var(--text-muted); font-size: 0.85rem; }
 
@@ -360,7 +362,7 @@ nav a.active::after{
   width: 36px; height:36px; flex-shrink:0;
   border-radius: 10px;
   background: rgba(232,93,117,0.15);
-  color: var(--coral);
+  color: var(--gold);
   display:flex; align-items:center; justify-content:center;
 }
 .info-list h4{ font-size: 0.92rem; margin-bottom:2px; }
@@ -383,7 +385,7 @@ form.contact-form{ padding: 28px; }
   font-size: 0.92rem;
 }
 .form-row textarea{ resize: vertical; min-height: 100px; }
-.form-row input:focus, .form-row textarea:focus{ outline: 2px solid var(--amber); outline-offset: 1px; }
+.form-row input:focus, .form-row textarea:focus{ outline: 2px solid var(--gold); outline-offset: 1px; }
 
 /* ---------- Product grid (shop pages) ---------- */
 .product-grid{
@@ -400,11 +402,11 @@ form.contact-form{ padding: 28px; }
 }
 .product-card .p-body{ padding: 18px; display:flex; justify-content:space-between; align-items:center; }
 .product-card h4{ font-size: 0.95rem; margin-bottom:2px; }
-.product-card .price{ color: var(--amber); font-weight:700; }
+.product-card .price{ color: var(--gold); font-weight:700; }
 
 .breadcrumb{ color: var(--text-muted); font-size: 0.85rem; margin-bottom: 24px; }
 .breadcrumb a{ color: var(--text-muted); }
-.breadcrumb a:hover{ color: var(--amber); }
+.breadcrumb a:hover{ color: var(--gold); }
 
 /* ---------- CTA band ---------- */
 .cta-band{ padding: 44px; text-align:center; }
@@ -420,7 +422,7 @@ footer{ padding: 50px 0 30px; margin-top: 40px; }
   gap: 32px;
   margin-bottom: 28px;
 }
-.footer-grid h4{ font-size:0.85rem; letter-spacing:0.5px; text-transform:uppercase; color: var(--amber); margin-bottom: 14px; }
+.footer-grid h4{ font-size:0.85rem; letter-spacing:0.5px; text-transform:uppercase; color: var(--gold); margin-bottom: 14px; }
 .footer-grid li{ margin-bottom: 8px; }
 .footer-grid a{ color: var(--text-muted); font-size: 0.9rem; }
 .footer-grid a:hover{ color: var(--text-primary); }
@@ -464,6 +466,6 @@ footer{ padding: 50px 0 30px; margin-top: 40px; }
 
 /* Visible keyboard focus */
 a:focus-visible, button:focus-visible{
-  outline: 2px solid var(--amber);
+  outline: 2px solid var(--gold);
   outline-offset: 2px;
 }
