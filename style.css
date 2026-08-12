@@ -366,3 +366,46 @@ footer{
     grid-template-columns:2fr 1fr;
   }
 }
+
+/* MOBILE NAVIGATION */
+
+.menu-btn{
+  position:relative;
+  z-index:120;
+}
+
+.mobile-menu{
+  position:fixed;
+  inset:68px 12px auto;
+  z-index:110;
+  padding:18px;
+  background:rgba(255,255,255,.96);
+  backdrop-filter:blur(20px);
+  border:1px solid var(--line);
+  border-radius:22px;
+  box-shadow:0 20px 50px rgba(0,0,0,.12);
+  display:none;
+}
+
+.mobile-menu.is-open{
+  display:grid;
+  gap:4px;
+}
+
+.mobile-menu a{
+  padding:15px 12px;
+  border-radius:12px;
+  font-size:1rem;
+  font-weight:750;
+}
+
+.mobile-menu a:hover,
+.mobile-menu a:focus-visible{
+  background:var(--surface-soft);
+}
+
+@media (min-width:768px){
+  .mobile-menu{
+    display:none !important;
+  }
+}
