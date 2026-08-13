@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Men's Wear | W Collections Thrift Shop</title>
+<meta name="description" content="Shop men's wear at W Collections Thrift Shop, Kahawa Sukari. Shirts, jackets, trousers and everyday essentials — quality-checked before they hit the rail.">
+<link rel="canonical" href="https://w-collections.vercel.app/mens-clothes.html">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-dark">
+<div class="orb-mid" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="container">
+    <div class="nav-shell glass">
+      <a href="index.html" class="logo">W <span>Collections</span></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="womens-clothing.html">Women</a></li>
+          <li><a href="mens-clothes.html" class="active">Men</a></li>
+          <li><a href="streetwear.html">Streetwear</a></li>
+          <li><a href="childrens-clothing.html">Kids</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="nav-cta">Visit Us</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a> / Men's Wear</div>
+      <div class="hero-inner glass" style="text-align:left; padding:40px 44px;">
+        <span class="hero-tag">Men</span>
+        <h1 style="font-size:clamp(1.8rem,4vw,2.8rem);">Men's Wear</h1>
+        <p class="lead" style="margin:0;">Shirts, jackets, trousers and everyday essentials — quality-checked before they hit the rail.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="product-grid">
+        <div class="product-card glass">
+          <div class="thumb sw-men">M</div>
+          <div class="p-body">
+            <div>
+              <h4>Corduroy Jacket</h4>
+            </div>
+            <span class="price">KSh 1,300</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-men">M</div>
+          <div class="p-body">
+            <div>
+              <h4>Oxford Shirt</h4>
+            </div>
+            <span class="price">KSh 600</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-men">M</div>
+          <div class="p-body">
+            <div>
+              <h4>Chino Trousers</h4>
+            </div>
+            <span class="price">KSh 800</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-men">M</div>
+          <div class="p-body">
+            <div>
+              <h4>Denim Shirt</h4>
+            </div>
+            <span class="price">KSh 700</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-men">M</div>
+          <div class="p-body">
+            <div>
+              <h4>Wool Blazer</h4>
+            </div>
+            <span class="price">KSh 1,800</span>
+          </div>
+        </div>
+        <div class="product-card glass">
+          <div class="thumb sw-men">M</div>
+          <div class="p-body">
+            <div>
+              <h4>Cargo Pants</h4>
+            </div>
+            <span class="price">KSh 900</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta-band glass">
+        <h2>See it in person</h2>
+        <p>New men stock lands weekly at Ruhan Plaza, Shop 17.</p>
+        <a href="contact.html" class="btn btn-primary">Get Directions</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-inner glass">
+      <div class="footer-grid">
+        <div>
+          <h4>W Collections</h4>
+          <p style="color:var(--text-muted); font-size:0.9rem; max-width:320px;">Quality mitumba and streetwear in Kahawa Sukari — hand-picked, honestly priced.</p>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="womens-clothing.html">Women</a></li>
+            <li><a href="mens-clothes.html">Men</a></li>
+            <li><a href="streetwear.html">Streetwear</a></li>
+            <li><a href="childrens-clothing.html">Kids</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Shop Info</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="tel:+254722721692">+254 722 721 692</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 W Collections Thrift Shop</span>
+        <span>Ruhan Plaza, Shop 17, Kahawa Sukari</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

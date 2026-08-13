@@ -589,3 +589,41 @@ body.kids-page{
     grid-template-columns:repeat(4,minmax(0,1fr));
   }
 }
+
+/* ===== Inventory Cards ===== */
+
+.product-card img,
+.product-image{
+  display:block;
+  width:100%;
+  aspect-ratio:4/5;
+  object-fit:cover;
+  border-radius:16px 16px 0 0;
+}
+
+.product-card{
+  overflow:hidden;
+}
+
+.product-card .p-body{
+  display:flex;
+  flex-direction:column;
+  gap:.75rem;
+  padding:1rem;
+}
+
+.product-card h4{
+  margin:0;
+  font-size:1rem;
+  font-weight:600;
+}
+
+.product-card .btn{
+  width:100%;
+  justify-content:center;
+}
+
+.product-card .price{
+  display:none;
+}
+
