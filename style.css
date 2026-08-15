@@ -101,6 +101,13 @@ button{
   gap:16px;
 }
 
+.nav .logo {
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  max-width:100%;
+}
+
 .logo{
   font-size:1rem;
   font-weight:800;
@@ -111,6 +118,50 @@ button{
 
 .logo::first-letter{
   color:var(--accent-strong);
+}
+
+.brand-header{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  line-height:1;
+  min-height:52px;
+  transform:translateY(-0.4cm);
+}
+
+.brand-image-box{
+  width:76px;
+  height:20px;
+  display:grid;
+  place-items:center;
+  border-radius:8px;
+  background:transparent;
+  border:0;
+  box-shadow:none;
+  overflow:visible;
+  padding:0;
+  flex-shrink:0;
+}
+
+.brand-logo{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  display:block;
+  filter:drop-shadow(0 0 8px rgba(235,201,119,.08));
+}
+
+.brand-wordmark{
+  font-size:2.4rem;
+  font-weight:800;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+  color:var(--accent-strong);
+  text-shadow:0 0 12px rgba(235,201,119,.1);
+  white-space:nowrap;
+  line-height:.9;
+  position:relative;
+  top:0.4cm;
 }
 
 .nav-links{
