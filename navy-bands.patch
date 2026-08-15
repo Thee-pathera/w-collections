@@ -1,0 +1,345 @@
+From cfd162a44cea4e1db3111b26eba1c4a728b138e6 Mon Sep 17 00:00:00 2001
+From: Thee_panthera <158810576+Thee-pathera@users.noreply.github.com>
+Date: Sat, 15 Aug 2026 10:54:54 +0000
+Subject: [PATCH] Add alternating navy/bright section bands with gold +
+ electric-blue accents
+
+- New --navy-*, --gold, --electric-blue CSS vars in :root
+- .band-navy theme class: dark section bg, gold eyebrows/tags, electric-blue links, frosted-dark .glass panels
+- Applied band-navy to alternate every page's 2nd and 4th content section (category grid/product grid + footer on home/shop pages; split + cta-band on about; contact-grid + footer on contact)
+- Fixed --text-muted (was undefined, now aliases --muted)
+- Added missing .footer-bottom, .footer-grid ul/h4, .split .visual/.copy rules (were completely unstyled before, independent of this change)
+---
+ about.html              |   4 +-
+ childrens-clothing.html |   4 +-
+ contact.html            |   4 +-
+ index.html              |   4 +-
+ mens-clothes.html       |   4 +-
+ streetwear.html         |   4 +-
+ style.css               | 151 ++++++++++++++++++++++++++++++++++++++++
+ womens-clothing.html    |   4 +-
+ 8 files changed, 165 insertions(+), 14 deletions(-)
+
+diff --git a/about.html b/about.html
+index 6531113..bc1af32 100644
+--- a/about.html
++++ b/about.html
+@@ -42,7 +42,7 @@
+     </div>
+   </section>
+ 
+-  <section class="section">
++  <section class="section band-navy">
+     <div class="container">
+       <div class="split glass" style="padding:36px;">
+         <div class="visual">Sorted. Checked. Ready to wear.</div>
+@@ -65,7 +65,7 @@
+     </div>
+   </section>
+ 
+-  <section class="section">
++  <section class="section band-navy">
+     <div class="container">
+       <div class="cta-band glass">
+         <h2>Come see the rails for yourself</h2>
+diff --git a/childrens-clothing.html b/childrens-clothing.html
+index 249e5de..b34d017 100644
+--- a/childrens-clothing.html
++++ b/childrens-clothing.html
+@@ -43,7 +43,7 @@
+     </div>
+   </section>
+ 
+-  <section class="section">
++  <section class="section band-navy">
+     <div class="container">
+       <div class="product-grid">
+         <div class="product-card glass">
+@@ -115,7 +115,7 @@
+   </section>
+ </main>
+ 
+-<footer>
++<footer class="band-navy">
+   <div class="container">
+     <div class="footer-inner glass">
+       <div class="footer-grid">
+diff --git a/contact.html b/contact.html
+index ba7c86f..8d17e92 100644
+--- a/contact.html
++++ b/contact.html
+@@ -42,7 +42,7 @@
+     </div>
+   </section>
+ 
+-  <section class="section">
++  <section class="section band-navy">
+     <div class="container">
+       <div class="contact-grid">
+         <div class="glass" style="padding:32px;">
+@@ -101,7 +101,7 @@
+   </section>
+ </main>
+ 
+-<footer>
++<footer class="band-navy">
+   <div class="container">
+     <div class="footer-inner glass">
+       <div class="footer-grid">
+diff --git a/index.html b/index.html
+index 1ae2655..7946cec 100644
+--- a/index.html
++++ b/index.html
+@@ -85,7 +85,7 @@
+     </div>
+   </section>
+ 
+-  <section class="section" id="categories">
++  <section class="section band-navy" id="categories">
+     <div class="container">
+ 
+       <div class="section-heading">
+@@ -161,7 +161,7 @@
+ 
+ </main>
+ 
+-<footer>
++<footer class="band-navy">
+   <div class="container">
+ 
+     <div class="footer-grid">
+diff --git a/mens-clothes.html b/mens-clothes.html
+index 2a710e9..4113ca5 100644
+--- a/mens-clothes.html
++++ b/mens-clothes.html
+@@ -43,7 +43,7 @@
+     </div>
+   </section>
+ 
+-  <section class="section">
++  <section class="section band-navy">
+     <div class="container">
+       <div class="product-grid">
+         <div class="product-card glass">
+@@ -115,7 +115,7 @@
+   </section>
+ </main>
+ 
+-<footer>
++<footer class="band-navy">
+   <div class="container">
+     <div class="footer-inner glass">
+       <div class="footer-grid">
+diff --git a/streetwear.html b/streetwear.html
+index f602974..4dddb37 100644
+--- a/streetwear.html
++++ b/streetwear.html
+@@ -43,7 +43,7 @@
+     </div>
+   </section>
+ 
+-  <section class="section">
++  <section class="section band-navy">
+     <div class="container">
+       <div class="product-grid">
+         <div class="product-card glass">
+@@ -115,7 +115,7 @@
+   </section>
+ </main>
+ 
+-<footer>
++<footer class="band-navy">
+   <div class="container">
+     <div class="footer-inner glass">
+       <div class="footer-grid">
+diff --git a/style.css b/style.css
+index 4c2ae07..a313089 100644
+--- a/style.css
++++ b/style.css
+@@ -9,6 +9,19 @@
+   --radius:22px;
+   --shadow:0 10px 30px rgba(0,0,0,.06);
+   --max:1280px;
++
++  /* NAVY BAND PALETTE — royal navy base, gold + electric-blue
++     accents, restoring the accent language from the original
++     glassmorphism build for use in alternating navy sections. */
++  --navy-bg:#0a1128;
++  --navy-text:#f3f4fa;
++  --navy-muted:#a9aed4;
++  --navy-line:rgba(255,255,255,.14);
++  --navy-glass-bg:rgba(255,255,255,.06);
++  --navy-glass-border:rgba(255,255,255,.16);
++  --gold:#d4af37;
++  --electric-blue:#3b6bff;
++  --text-muted:var(--muted);
+ }
+ 
+ *{
+@@ -704,3 +717,141 @@ body.kids-page{
+ }
+ .map-embed{border-radius:var(--radius); overflow:hidden; height:280px;}
+ .map-embed iframe{width:100%; height:100%; border:0;}
++
++/* ============================
++   NAVY BAND — alternating dark section theme, applied per-page
++   to alternate with the default bright background. Brings back
++   the gold + electric-blue accents from the original glass build,
++   scoped to only these sections rather than the whole site.
++   ============================ */
++.band-navy{
++  background:var(--navy-bg);
++  color:var(--navy-text);
++}
++footer.band-navy{
++  border-top:1px solid var(--navy-line);
++}
++
++.band-navy .eyebrow,
++.band-navy .hero-tag,
++.band-navy .breadcrumb,
++.band-navy .footer-title{
++  color:var(--gold);
++}
++
++.band-navy .lead,
++.band-navy p,
++.band-navy .footer-text,
++.band-navy .breadcrumb{
++  color:var(--navy-muted);
++}
++
++.band-navy .glass{
++  background:var(--navy-glass-bg);
++  border:1px solid var(--navy-glass-border);
++  -webkit-backdrop-filter:blur(18px);
++  backdrop-filter:blur(18px);
++  box-shadow:0 20px 50px rgba(0,0,0,.35);
++}
++
++.band-navy .btn-primary{
++  background:var(--gold);
++  color:#141414;
++}
++
++.band-navy .btn-secondary{
++  background:transparent;
++  border:1px solid var(--electric-blue);
++  color:var(--electric-blue);
++}
++
++.band-navy a:not(.btn){
++  color:var(--electric-blue);
++}
++
++.band-navy .category-card span{
++  background:rgba(10,17,40,.75);
++  color:var(--gold);
++  -webkit-backdrop-filter:blur(12px);
++  backdrop-filter:blur(12px);
++}
++
++.band-navy .stat-row .stat b{
++  color:var(--gold);
++}
++.band-navy .stat-row .stat span{
++  color:var(--navy-muted);
++}
++
++.band-navy .product-card h4,
++.band-navy .product-card .name{
++  color:var(--navy-text);
++}
++.band-navy .product-card .thumb{
++  background:rgba(255,255,255,.06);
++  color:var(--navy-text);
++}
++
++.band-navy .footer-links a{
++  color:var(--navy-text);
++}
++
++.band-navy .footer-bottom{
++  border-top-color:var(--navy-line);
++  color:var(--navy-muted);
++}
++
++/* ============================
++   Small existing gaps that would otherwise break inside the
++   new navy footers/split sections (unstyled before this fix,
++   regardless of band color).
++   ============================ */
++.footer-bottom{
++  margin-top:24px;
++  padding-top:20px;
++  border-top:1px solid var(--line);
++  display:flex;
++  flex-wrap:wrap;
++  gap:8px 16px;
++  justify-content:space-between;
++  font-size:.78rem;
++  color:var(--muted);
++}
++.footer-grid ul{
++  list-style:none;
++  display:grid;
++  gap:6px;
++  margin-top:4px;
++}
++.footer-grid h4{
++  margin-bottom:10px;
++  font-size:.85rem;
++  text-transform:uppercase;
++  letter-spacing:.06em;
++}
++.split .visual{
++  display:flex;
++  align-items:center;
++  justify-content:center;
++  min-height:160px;
++  padding:24px;
++  border-radius:16px;
++  background:var(--surface-soft);
++  font-weight:800;
++  text-align:center;
++}
++.band-navy .split .visual{
++  background:rgba(255,255,255,.06);
++}
++.split .copy h2{
++  margin-bottom:10px;
++  font-size:1.5rem;
++}
++.split .copy p{
++  margin-top:10px;
++  color:var(--muted);
++  font-size:.92rem;
++}
++.band-navy .split .copy p{
++  color:var(--navy-muted);
++}
+diff --git a/womens-clothing.html b/womens-clothing.html
+index 03029b9..8c8424c 100644
+--- a/womens-clothing.html
++++ b/womens-clothing.html
+@@ -43,7 +43,7 @@
+     </div>
+   </section>
+ 
+-  <section class="section">
++  <section class="section band-navy">
+     <div class="container">
+       <div class="product-grid">
+         <div class="product-card glass">
+@@ -115,7 +115,7 @@
+   </section>
+ </main>
+ 
+-<footer>
++<footer class="band-navy">
+   <div class="container">
+     <div class="footer-inner glass">
+       <div class="footer-grid">
+-- 
+2.43.0
+
