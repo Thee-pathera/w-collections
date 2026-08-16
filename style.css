@@ -178,6 +178,7 @@ button{
   border-radius:50%;
   color:var(--text);
   box-shadow:inset 0 1px 0 rgba(255,255,255,.08), 0 8px 18px rgba(5,10,17,.26);
+  transform:translateX(-0.6cm);
 }
 
 /* HERO */
@@ -563,6 +564,7 @@ footer{
 .menu-btn{
   position:relative;
   z-index:120;
+  transform:translateX(-0.6cm);
 }
 
 .mobile-menu{

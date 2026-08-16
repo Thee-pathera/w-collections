@@ -51,6 +51,21 @@ if (menuButton && mobileMenu) {
       menuButton.textContent = "☰";
     });
   });
+
+  // Close mobile menu when clicking or touching outside of it
+  function closeMobileMenuIfOpen(event) {
+    if (!mobileMenu.classList.contains('is-open')) return;
+    const target = event.target;
+    if (!mobileMenu.contains(target) && !menuButton.contains(target)) {
+      mobileMenu.classList.remove('is-open');
+      menuButton.setAttribute('aria-expanded', 'false');
+      menuButton.setAttribute('aria-label', 'Open navigation menu');
+      menuButton.textContent = '☰';
+    }
+  }
+
+  document.addEventListener('click', closeMobileMenuIfOpen);
+  document.addEventListener('touchstart', closeMobileMenuIfOpen);
 }
 
 /* CATEGORY PAGE MOBILE NAV */
