@@ -1,0 +1,28 @@
+<svg width="1000" height="420" viewBox="0 0 1000 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldFill" x1="190" y1="30" x2="780" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF7D6"/>
+      <stop offset="0.12" stop-color="#F7E097"/>
+      <stop offset="0.27" stop-color="#E2BB67"/>
+      <stop offset="0.45" stop-color="#C68A2C"/>
+      <stop offset="0.6" stop-color="#9A6918"/>
+      <stop offset="0.75" stop-color="#F1D28C"/>
+      <stop offset="0.88" stop-color="#D7A14A"/>
+      <stop offset="1" stop-color="#FFF7D7"/>
+    </linearGradient>
+    <linearGradient id="goldStroke" x1="140" y1="70" x2="820" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FCE7A7"/>
+      <stop offset="0.25" stop-color="#E5BC63"/>
+      <stop offset="0.5" stop-color="#B77A1A"/>
+      <stop offset="0.72" stop-color="#F4D588"/>
+      <stop offset="1" stop-color="#F9F0C4"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M175 312C192 204 229 142 290 96C322 74 350 70 388 86C403 93 420 103 437 119C469 146 501 192 531 260C559 191 590 146 621 119C648 97 673 88 707 95C757 104 807 146 833 204C858 259 871 293 894 312H836C814 287 803 274 785 267C760 257 733 260 703 280C673 300 650 331 618 346C563 372 510 354 470 311C433 272 415 238 390 205C371 179 355 167 335 167C309 167 290 193 269 235C247 279 216 322 160 333L175 312Z" fill="url(#goldFill)"/>
+
+  <path d="M286 327C355 194 403 116 481 108C544 101 610 138 642 192C669 238 685 287 717 327H650C623 291 589 265 549 249C511 234 476 231 446 245C407 264 375 297 333 320L286 327Z" fill="#060B12" opacity="0.9"/>
+
+  <path d="M128 235C197 148 258 128 333 149C394 166 446 213 480 256C518 302 672 296 783 214" stroke="url(#goldStroke)" stroke-width="22" stroke-linecap="round" opacity="0.96"/>
+  <path d="M173 208C216 162 256 138 304 136C350 134 409 156 437 195" stroke="#0E151D" stroke-width="20" stroke-linecap="round" opacity="0.88"/>
+</svg>
