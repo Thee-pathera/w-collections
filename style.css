@@ -278,6 +278,28 @@ button{
   box-shadow:0 18px 36px rgba(235,201,119,.38), inset 0 2px 1px rgba(255,255,255,.8), inset 0 -4px 8px rgba(135,93,17,.3);
 }
 
+a[href^="https://wa.me/"],
+a[href^="https://api.whatsapp.com/"]{
+  background:linear-gradient(135deg, #eef8ff 0%, #bddcff 12%, #7bb8ff 24%, #2a7ae9 40%, #143f9f 58%, #6fb3ff 78%, #edf8ff 100%);
+  color:#f6fbff;
+  border:1px solid rgba(255,255,255,.62);
+  box-shadow:0 18px 36px rgba(42,122,233,.32), inset 0 2px 1px rgba(255,255,255,.8), inset 0 -5px 10px rgba(17,61,156,.26), 0 0 18px rgba(42,122,233,.12);
+  text-shadow:0 1px 0 rgba(8,28,70,.34);
+}
+
+a[href^="https://wa.me/"]::before,
+a[href^="https://api.whatsapp.com/"]::before{
+  background:linear-gradient(120deg, transparent 0%, rgba(255,255,255,.72) 14%, rgba(255,255,255,.16) 22%, transparent 36%, transparent 100%);
+  opacity:.95;
+}
+
+a[href^="https://wa.me/"]:hover,
+a[href^="https://wa.me/"]:focus-visible,
+a[href^="https://api.whatsapp.com/"]:hover,
+a[href^="https://api.whatsapp.com/"]:focus-visible{
+  box-shadow:0 18px 36px rgba(42,122,233,.38), inset 0 2px 1px rgba(255,255,255,.8), inset 0 -4px 8px rgba(17,61,156,.32);
+}
+
 .btn-secondary{
   background:rgba(10,16,24,.45);
   border:1px solid rgba(235,201,119,.24);
